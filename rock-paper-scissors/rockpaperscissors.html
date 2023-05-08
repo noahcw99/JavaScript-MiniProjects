@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Rock Paper Scissors Game</title>
+
+        <link
+        rel="stylesheet"
+        href="rockpaperscissors.css">
+    </head>
+
+    <body class="js-confirm-background">
+
+        <div class="js-test-background">
+            <div class="game-title-container">
+                <!--
+                <p class="title-text">
+                    Rock Paper Scissors
+                </p>
+                -->
+            </div>
+    
+            <div class="moves-button-row">
+                <button class ="move-button js-rock-button">
+                <img src = rockpaperscissors-images\rock-emoji.png 
+                class="move-icon"></button>
+    
+                <button class ="move-button js-paper-button">
+                <img src = rockpaperscissors-images\paper-emoji.png 
+                class="move-icon"></button>
+    
+                <button class ="move-button js-scissors-button">
+                <img src = rockpaperscissors-images\scissors-emoji.png
+                class="move-icon"></button>
+            </div>
+    
+            <div class="game-result-container">
+                <p class="js-winner winner"></p>
+            </div>
+    
+            <div class="moves-chosen-container">
+                <p class="js-player-moves moves-chosen"></p>
+            </div>
+    
+            <div class="score-display-container">
+                <p class="js-scoreboard score-display"></p>
+            </div>
+    
+            <div class="bottom-button-container">
+                <button class="reset-button js-reset-button">Reset Score</button>
+                <button class="auto-button js-auto-button">Auto Play</button>
+            </div>
+        </div>
+
+        <div class="key-controls-container">
+            <p class="key-control-title">Optional Key Controls:</p>
+            <div>
+                <p class="key-control">r: choose rock</p>
+                <p class="key-control">p: choose paper</p>
+                <p class="key-control">s: choose scissors</p>
+                <p class="key-control">a: auto play</p>
+                <p class="key-control">backspace: reset score</p>
+            </div>
+        </div>
+
+        <div class="creator-container">
+            <p class="creator-name">Created by: Noah Welsh - 2023</p>
+        </div>
+
+        <div class="js-reset-confirmation"></div>
+
+        <script src="rockpaperscissors.js"></script>
+    </body>
+</html>

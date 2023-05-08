@@ -1,0 +1,53 @@
+body {
+    font-family: Arial;
+    background: black;
+}
+
+.number-display {
+    font-size: 45px;
+    color: white;
+    margin: 15px 0px;
+}
+
+.row-container {
+    margin-bottom: 15px;
+}
+
+.numbers {
+    cursor: pointer;
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 0px 5px 0px 0px;
+    padding: 1px 6px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.arithmatic {
+    cursor: pointer;
+    font-size: 26px;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 0px 5px 0px 0px;
+    padding: 1px 6px;
+    background-color: rgb(254, 160, 10);
+    color: white;
+}
+
+.clear-button {
+    cursor: pointer;
+    font-size: 17px;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 0px 5px 0px 0px;
+    padding: 1px 6px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}

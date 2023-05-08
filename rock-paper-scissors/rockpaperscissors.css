@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(25, 25, 25);
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.moves-button-row,
+.game-title-container,
+.game-result-container,
+.moves-chosen-container,
+.score-display-container,
+.bottom-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.game-title-container {
+    height: 100px;
+}
+
+p {
+    color: white;
+}
+
+.title-text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.move-icon {
+    height: 100px;
+}
+
+.move-button {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    background-color: rgb(25, 25, 25);
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.move-button:hover{
+    background-color: rgb(16, 16, 16);
+    box-shadow: 5px 17px 25px rgb(16, 16, 16);
+    border-color: rgb(216, 216, 216);
+}
+
+.winner {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.moves-chosen{
+    font-size: 30px;
+    margin: 16px 0px;
+}
+
+.score-display {
+    margin-top: 80px;
+}
+
+.reset-button,
+.auto-button {
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 30px;
+    padding: 8px 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset-button:hover,
+.auto-button:hover {
+    background-color: rgb(205, 205, 205);
+    box-shadow: 5px 10px 28px rgb(19, 19, 19);
+}
+
+.reset-button {
+    margin-right: 5px;
+}
+
+.auto-button {
+    margin-left: 5px;
+}
+
+.key-controls-container {
+    position: fixed;
+    bottom: 45px;
+    border: 1px solid rgb(208, 208, 208);
+    background-color: rgb(29, 29, 29);
+    min-width: 12%;
+    max-width: 27%;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+
+.key-control-title {
+    font-size: 25px;
+}
+
+.key-control {
+    font-size: 20px;
+}
+
+.creator-container {
+    position: fixed;
+    right: 10px;
+    bottom: -10px;
+}
+
+.creator-name {
+    font-size: 1rem;
+}
+
+.reset-confirmation{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 41%;
+    top: 45%;
+    border: 3px solid rgb(19, 19, 19);
+    border-radius: 8px;
+    background-color: rgb(22, 22, 22);
+    height: 2em;
+    padding: 5px 15px;
+}
+
+.confirm-message {
+    font-size: 2rem;
+    margin-right: 12px;
+}
+
+.confirm-button-yes,
+.confirm-button-no {
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 4px 11px;
+    border-radius: 3px;
+}
+
+.confirm-button-yes:hover,
+.confirm-button-no:hover {
+    background-color: rgb(195, 195, 195);
+}
+
+.confirm-button-yes {
+    margin-right: 5px;
+}
+
+.confirm-background {
+    background-color: rgb(30, 30, 30);
+}
